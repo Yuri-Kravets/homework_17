@@ -4,7 +4,7 @@ function mainFunction (exponentiation) {
   return exponentiation(num1, num2);
   return multiply(num1,num2);
   return division(num1,num2);
-  return module (num1,num2);
+  return module(num1,num2);
 }
 
 function exponentiation(num1, num2) {
