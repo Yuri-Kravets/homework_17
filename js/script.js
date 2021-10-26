@@ -18,7 +18,7 @@ function division(num1,num2) {
 function module(num1,num2) {
   return num1 % num2
 }
-//alert(mainFunction(exponentiation));
+alert(mainFunction(exponentiation));
 alert(mainFunction (multiply));
 alert(mainFunction (division));
-//alert(mainFunction (module));
+alert(mainFunction (module));
