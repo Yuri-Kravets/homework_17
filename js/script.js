@@ -8,23 +8,20 @@ function mainFunction (exponentiation) {
 }
 
 function exponentiation(num1, num2) {
-  let getDegree = Math.pow(num1,num2);
-    alert(getDegree);  
+  return Math.pow(num1,num2);
 }
 function multiply(num1,num2) {
-  let mult = (num1 * num2);
-  alert (mult);
+  return num1 * num2;
 }
 
 function division(num1,num2) {
-  let div = (num1 / num2);
-  alert (div);
+  return num1 / num2
 }
+
 function module(num1,num2) {
-  let mod = (num1 % num2);
-  alert (mod);
+  return num1 % num2
 }
-mainFunction (exponentiation);
-mainFunction (multiply);
-mainFunction (division);
-mainFunction (module);
+alert(mainFunction(exponentiation));
+//alert(mainFunction (multiply));
+//alert(mainFunction (division));
+//alert(mainFunction (module));
